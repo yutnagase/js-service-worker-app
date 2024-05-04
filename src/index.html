@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>都道府県情報</title>
+  </head>
+  <body>
+    <h1>都道府県一覧</h1>
+    <table id="prefecture-table">
+      <thead>
+        <tr>
+          <th>県名</th>
+          <th>県庁所在地</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JavaScriptでデータを挿入 -->
+      </tbody>
+    </table>
+
+    <div id="detail-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="detail-title">県庁所在地の詳細</h2>
+        <p id="detail-address">住所：</p>
+        <p id="detail-specialty">名産品：</p>
+        <p id="detail-feature">特徴：</p>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./regist.js"></script>
+  </body>
+</html>
